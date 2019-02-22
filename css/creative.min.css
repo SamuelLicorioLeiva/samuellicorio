@@ -175,7 +175,7 @@ img::-moz-selection {
 header.masthead {
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/header.jpg);
+    background-image:url(../img/header_yodao.jpg);
     background-position:center center;
     background-size:cover
 }
@@ -319,3 +319,12 @@ header.masthead h1 {
     -webkit-box-shadow:0 0 0 .2rem rgba(161, 54, 233, 0.5)!important;
     box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important
 }
+
+@font-face {
+    font-family: 'Coalition';
+    src: url('../vendor/downloaded-fonts/coalition/Coalition_v2..ttf');
+  }
+  
+  .font-new {
+    font-family: 'Coalition';
+  }
